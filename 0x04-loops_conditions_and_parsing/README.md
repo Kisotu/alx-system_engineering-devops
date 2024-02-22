@@ -1,13 +1,12 @@
-
 ## Resources
 
 Read or watch:
 
-    Loops sample
-    Variable assignment and arithmetic
-    Comparison operators
-    File test operators
-    Make your scripts portable
+[Loops sample](https://intranet.alxswe.com/rltoken/wT98UJfv_E2tk4yP9PcLLw)
+[Variable assignment and arithmetic](https://intranet.alxswe.com/rltoken/olvOKX699pq50rkHRE5cSA)
+[Comparison operators](https://intranet.alxswe.com/rltoken/HxohzllkOWh0t4dy_HptIQ)
+[File test operators](https://intranet.alxswe.com/rltoken/g8of2ABPEJfCNtPrDQaqVw)
+[Make your scripts portable](https://intranet.alxswe.com/rltoken/O0Ay21p7tDhfLMsYbtAKug)
 
 man or help:
 
@@ -52,9 +51,9 @@ General
 ## More Info
 Shellcheck
 
-Shellcheck is a tool that will help you write proper Bash scripts. It will make recommendations on your syntax and semantics and provide advice on edge cases that you might not have thought about. Shellcheck is your friend! All your Bash scripts must pass Shellcheck without any error or you will not get any points on the task.
+[Shellcheck](https://intranet.alxswe.com/rltoken/joK6l_yEZ9N7T0GQ1RDjLA) is a tool that will help you write proper Bash scripts. It will make recommendations on your syntax and semantics and provide advice on edge cases that you might not have thought about. Shellcheck is your friend! All your Bash scripts must pass Shellcheck without any error or you will not get any points on the task.
 
-Shellcheck is available on the school’s computers. If you want to use it on your own computer, here is how to install it.
+Shellcheck is available on the school’s computers. If you want to use it on your own computer, here is how to [install it](https://intranet.alxswe.com/rltoken/jbz0_-i3TV3WpKgxhyrtpA).
 
 Examples:
 
@@ -62,5 +61,5 @@ Not passing Shellcheck:
 
 Passing Shellcheck:
 
-For every feedback, Shellcheck will provide a code that you can use to get more information about the issue, for example for code SC2034, you can browse https://github.com/koalaman/shellcheck/wiki/SC2034.
+For every feedback, Shellcheck will provide a code that you can use to get more information about the issue, for example for code SC2034, you can browse [](https://github.com/koalaman/shellcheck/wiki/SC2034)
 
