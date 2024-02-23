@@ -19,5 +19,4 @@ do
      echo "$number "
    fi
 done
-echo
 
