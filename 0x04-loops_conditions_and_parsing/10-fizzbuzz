@@ -16,7 +16,7 @@ do
    then
      echo "Buzz"
    else
-     echo "$number "
+     echo "$number"
    fi
 done
 
