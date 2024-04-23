@@ -11,7 +11,7 @@ FILE="/etc/nginx/sites-available/default"
 
 sudo ufw allow 'Nginx HTTP'
 
-sudo echo "Hello World!" > /var/www/html/index.nginx-debian.html
+echo "Hello World!" > /var/www/html/index.nginx-debian.html
 
 sudo sed -i "37i\ $REDIRECT" "$FILE"
 
