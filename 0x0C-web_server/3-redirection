@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+# a script that configures nginx so that
+# the route /redirect_me points to another page
+
+sudo apt-get update
+
+# install nginx
+sudo apt-get install -y nginx
+
+REDIRECT="\n\tlocation /redirect_me {\n\t\treturn 301 https://youtu.be/dQw4w9WgXcQ; \n\t}\n"
+
+FILE="/etc/nginx/sites-available/default"
+
+ufw allow 'Nginx HTTP'
+
+sudo echo "Hello World!" > /var/www/html/index.nginx-debian.html
+
+sed -i "37i\ $REDIRECT" "$FILE"
+
+sudo service nginx restart
+
