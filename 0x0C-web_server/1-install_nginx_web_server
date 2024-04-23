@@ -11,4 +11,4 @@ sudo apt-get install -y nginx
 echo "Hello World!" > /var/www/html/task1.html
 
 # restart nginx server
-service nginx restart
+sudo service nginx restart
