@@ -24,4 +24,4 @@ echo "$FOUR04" > "$ERR_FL"
 sudo sed -i "37i\ $ERR_RED" "$FL"
 
 sudo sed -i "37i\ $CUSTOM_H" "$FL"
-service nginx restart
+sudo service nginx restart
