@@ -10,7 +10,7 @@ echo "Hello World!" > /var/www/html/index.nginx-debian.html
 
 REDIR="\n\tlocation /redirect_me {\n\t\treturn 301 https://youtu.be/dQw4w9WgXcQ;\n\t}\n"
 ERR_RED="\n\terror_page 404 /404error.html;\n\tlocation = /404error.html {\n\t\troot /usr/share/nginx/html;\n\t\tinternal;\n\t}\n"
-CUSTOM_H="\n\tadd_header X-Served-By $hostname;\n"
+CUSTOM_H="\n\tadd_header X-Served-By \$hostname;\n"
 
 FL="/etc/nginx/sites-available/default"
 ERR_FL="/usr/share/nginx/html/404error.html"
